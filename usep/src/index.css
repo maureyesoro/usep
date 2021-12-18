@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.header-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--yellow-usep);
+  font-weight: 700;
+  width: auto;
+  text-decoration: none;
+}
+
+.link::after {
+  content: "";
+  width: auto;
+  height: 8px;
+  background-color: var(--grey-usep);
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+:root {
+  --brown-usep: #63321f;
+  --yellow-usep: #ecda88;
+  --grey-usep: #222222;
+  --green-usep: #153d37;
+}
