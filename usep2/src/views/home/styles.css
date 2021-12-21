@@ -1,0 +1,122 @@
+.home-container {
+  padding: 70px;
+  margin: 30px;
+  margin-bottom: 0;
+  display: grid;
+  background-color: rgb(75, 75, 75);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh 200px 100vh 200px;
+  grid-template-areas:
+    "section1 section1"
+    "info1 info1"
+    "section2 section2"
+    "info2 info2"
+
+  /* display: grid;
+  flex: 1;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh 200px 100vh 800px 200px 600px;
+  grid-template-areas:
+    "product1 product1"
+    "info1 info1"
+    "half1 half2"
+    "product2 product2"
+    "info2 info2"
+    "product3 product3"; */
+}
+
+.section-1 {
+  padding: 20px;
+  grid-area: section1;
+  width: 100;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/jpg/hamburguers.jpg"); */
+  /* background-position: center bottom; */
+  /* background-repeat: space; */
+  /* filter: brightness(100%); */
+  /* background-size: cover; */
+}
+
+.section-1-content {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(133, 75, 75);
+}
+
+.section-title {
+  line-height: 10rem;
+  font-size: 7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(75, 75, 75);
+}
+
+.info-section-1 {
+  grid-area: info1;
+  background-color: var(--red-carls);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.info-section-1-content-1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.info-section-1-content-2 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.section-2 {
+  grid-area: section2;
+  padding: 20px;
+  width: 100;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue-dessert);
+  /* background-color: gray; */
+}
+
+.info-section-2 {
+  grid-area: info2;
+  background-color: var(--red-carls);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.info-section-2-content-1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.info-section-2-content-2 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}

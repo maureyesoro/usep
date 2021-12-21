@@ -1,0 +1,20 @@
+.error-container {
+  display: flex;
+  flex: 1;
+  background-color: var(--yellow-carls);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.number-error {
+  font-size: 10rem;
+  font-weight: bold;
+  color: var(--red-carls);
+}
+
+.not-found-error {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--red-carls);
+}

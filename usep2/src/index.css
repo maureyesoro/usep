@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.button {
+  border: 1px solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  height: 5rem;
+  width: auto;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.button-black{
+  border: 1px solid;
+  border-color: black;
+  background-color: transparent;
+  color: black;
+  height: 5rem;
+  width: auto;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.button-black:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+input[type="text"]{
+  padding: 0 0 0 0;
+}
+
+.header-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--yellow-usep);
+  font-weight: 700;
+  width: auto;
+  text-decoration: none;
+}
+
+.link::after {
+  content: "";
+  width: auto;
+  height: 8px;
+  background-color: var(--grey-usep);
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+:root {
+  --red-carls: #cc2131;
+  --yellow-carls: #f6d43c;
+  --grey-carls: #222222;
+  --blue-dessert: #125355;
+  --brown-usep: #63321f;
+  --yellow-usep: white;
+  --grey-usep: #222222;
+  --green-usep: #153d37;
+}

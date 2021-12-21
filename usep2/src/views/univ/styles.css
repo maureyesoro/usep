@@ -1,0 +1,69 @@
+.container-tramites-univ {
+    width: 100%;
+    height: 100vh;
+}
+
+.univ-banner {
+    background-color: gray;
+    margin-top: 70px;
+}
+
+.title-univ-banner {
+    color: black;
+    text-align: center;
+}
+
+.tramite-section {
+    background-color: white;
+    height: auto;
+
+}
+
+.title-tramite-section {
+    font-size: .8rem;
+}
+
+.tramite-detail-container {
+    background-color: rgb(75, 75, 75);
+
+}
+
+.list-header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: .3fr 1fr .3fr .3fr 1fr 1fr 1fr 1fr 2fr .3fr;
+    text-align: center;
+    align-items: center;
+    background: var(--blue-dessert);
+}
+
+.list-header li {
+    background-color: rgb(255, 255, 255, .5);
+    /* padding: 3px; */
+    /* border: 1px solid var(--green-usep); */
+    /* color: white; */
+}
+
+.tramite-content {
+    color: white;
+    display: grid;
+    grid-template-columns: .3fr 1fr .3fr .3fr 1fr 1fr 1fr 1fr 2fr .3fr;
+    grid-template-rows: auto;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+    margin: 10px;
+    align-items: center;
+}
+
+.tramite-element {
+    width: auto;
+    /* background-color: black; */
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}

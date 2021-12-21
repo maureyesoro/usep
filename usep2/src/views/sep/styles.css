@@ -1,0 +1,69 @@
+.container-tramites-sep {
+    width: 100%;
+    height: 100vh;
+}
+
+.sep-banner {
+    background-color: gray;
+    margin-top: 70px;
+}
+
+.title-sep-banner {
+    color: black;
+    text-align: center;
+}
+
+.tramite-section-sep {
+    background-color: white;
+    height: auto;
+
+}
+
+.title-tramite-section-sep {
+    font-size: .8rem;
+}
+
+.tramite-detail-container-sep {
+    background-color: rgb(75, 75, 75);
+
+}
+
+.list-header-sep {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr .3fr .3fr .5fr .5fr .3fr .5fr .3fr .5fr .5fr .5fr .5fr .5fr;
+    text-align: center;
+    align-items: center;
+    background: var(--blue-dessert);
+}
+
+.list-header-sep li {
+    background-color: rgb(255, 255, 255, .5);
+    /* padding: 3px; */
+    /* border: 1px solid var(--green-usep); */
+    /* color: white; */
+}
+
+.tramite-content-sep {
+    color: white;
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr .3fr .3fr .5fr .5fr .3fr .5fr .3fr .5fr .5fr .5fr .5fr .5fr;
+    grid-template-rows: auto;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+    margin: 5px;
+    align-items: center;
+}
+
+.tramite-element-sep {
+    width: auto;
+    /* background-color: black; */
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+
+}
